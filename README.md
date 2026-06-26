@@ -2,7 +2,7 @@
 
 ## Architecture Diagram
 
-![Architecture Diagram](architecture/architecture-diagram.png)
+![Architecture Diagram](screenshots/architecture-diagram.png)
 
 ---
 
@@ -10,7 +10,7 @@
 
 The following screenshot shows the AWS infrastructure successfully created using Terraform.
 
-![AWS Infrastructure](architecture/aws-infrastructure.png)
+![AWS Infrastructure](screenshots/aws-infrastructure.png)
 
 Resources Created
 
@@ -25,7 +25,7 @@ Resources Created
 
 Terraform successfully created the AWS infrastructure.
 
-![Terraform Apply](architecture/terraform-apply.png)
+![Terraform Apply](screenshots/terraform-apply.png)
 
 Terraform Commands
 
@@ -42,7 +42,7 @@ terraform apply -auto-approve
 
 GitHub Actions automatically validates and deploys the infrastructure after every push to the **main** branch.
 
-![GitHub Actions](architecture/github-actions-success.png)
+![GitHub Actions](screenshots/github-actions-success.png)
 
 Workflow Steps
 
