@@ -11,4 +11,3 @@ variable "instance_type" {
 variable "key_name" {
   description = "EC2 Key Pair Name"
 }
-git version
