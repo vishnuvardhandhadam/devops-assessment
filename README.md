@@ -21,6 +21,20 @@ Resources Created
 
 ---
 
+## Application Preview
+
+The Flask web application is successfully deployed on an AWS EC2 instance provisioned using Terraform. Infrastructure deployment and validation are fully automated through GitHub Actions.
+
+![Application Preview](architecture/application-preview.png)
+
+### Application Output
+
+```text
+Hello from AWS EC2 using Terraform and GitHub Actions!
+```
+
+---
+
 ## Terraform Deployment
 
 Terraform successfully created the AWS infrastructure.
