@@ -12,12 +12,26 @@ The following screenshot shows the AWS infrastructure successfully created using
 
 ![AWS Infrastructure](screenshots/aws-infrastructure.png)
 
-Resources Created
+### Resources Created
 
 - EC2 Instance
 - IAM Role
 - IAM Instance Profile
 - Security Group
+
+---
+
+## Application Preview
+
+The Flask web application is successfully deployed on an AWS EC2 instance provisioned using Terraform. Infrastructure deployment and validation are fully automated through GitHub Actions.
+
+![Application Preview](screenshots/application-preview.png)
+
+### Application Output
+
+```text
+Hello from AWS EC2 using Terraform and GitHub Actions!
+```
 
 ---
 
@@ -27,7 +41,7 @@ Terraform successfully created the AWS infrastructure.
 
 ![Terraform Apply](screenshots/terraform-apply.png)
 
-Terraform Commands
+### Terraform Commands
 
 ```bash
 terraform init
@@ -44,7 +58,7 @@ GitHub Actions automatically validates and deploys the infrastructure after ever
 
 ![GitHub Actions](screenshots/github-actions-success.png)
 
-Workflow Steps
+### Workflow Steps
 
 - Checkout Repository
 - Configure AWS Credentials
@@ -150,6 +164,7 @@ devops-assessment/
 ├── architecture/
 │   ├── architecture-diagram.png
 │   ├── aws-infrastructure.png
+│   ├── application-preview.png
 │   ├── github-actions-success.png
 │   └── terraform-apply.png
 │
